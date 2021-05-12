@@ -23,18 +23,18 @@ for (i = 0; i < friends.length; i++) {
         let minusOne = j - 1;
         let name = friends[i];
         if (j === 2) {
-            console.log(j + ' lines of code in the file, ' + i + ' lines of code; ' + name + ' strikes one out, clears it all out, ' + minusOne + ' line of code in the file.');
+            console.log(j + ' lines of code in the file, ' + j + ' lines of code; ' + name + ' strikes one out, clears it all out, ' + minusOne + ' line of code in the file.');
         }
         else if (j === 1) {
             let minusOne = 'no more';
-            console.log(j + ' line of code in the file, ' + i + ' line of code; ' + name + ' strikes one out, clears it all out, ' + minusOne + ' lines of code in the file.');
+            console.log(j + ' line of code in the file, ' + j + ' line of code; ' + name + ' strikes one out, clears it all out, ' + minusOne + ' lines of code in the file.');
         }
         else if (j === 0) {
             let i = 'No more';
-            console.log(j + ' lines of code in the file, ' + i.toLowerCase() + ' lines of code; ' + name + ' types some more, writes some code, ' + minusOne + ' lines of code in the file.');
+            console.log(j + ' lines of code in the file, ' + j + ' lines of code; ' + name + ' types some more, writes some code, ' + minusOne + ' lines of code in the file.');
         }
         else {
-            console.log(j + ' lines of code in the file, ' + i + ' lines of code; ' + name + ' strikes one out, clears it all out, ' + minusOne + ' lines of code in the file.');
+            console.log(j + ' lines of code in the file, ' + j + ' lines of code; ' + name + ' strikes one out, clears it all out, ' + minusOne + ' lines of code in the file.');
         }
     }
 
