@@ -30,8 +30,8 @@ for (i = 0; i < friends.length; i++) {
             console.log(j + ' line of code in the file, ' + j + ' line of code; ' + name + ' strikes one out, clears it all out, ' + minusOne + ' lines of code in the file.');
         }
         else if (j === 0) {
-            let i = 'No more';
-            console.log(j + ' lines of code in the file, ' + j + ' lines of code; ' + name + ' types some more, writes some code, ' + minusOne + ' lines of code in the file.');
+            let j = 'No more';
+            console.log(j + ' lines of code in the file, ' + j.toLowerCase() + ' lines of code; ' + name + ' types some more, writes some code, 99 lines of code in the file.');
         }
         else {
             console.log(j + ' lines of code in the file, ' + j + ' lines of code; ' + name + ' strikes one out, clears it all out, ' + minusOne + ' lines of code in the file.');
