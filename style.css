@@ -1,9 +1,7 @@
-
-
-
 body {                  background-color: #199aca;}
-.friend {               background-color: #404;}
 
-h1 {                    color: #205};
-div.friend h3 {         text-transform: uppercase; background-color:#f09};
-
+.container {            display: flex;}
+a.button {              padding: 5px 15px; margin: 0 auto; cursor: pointer;  border: 1px solid #fff; border-radius: 10px; text-decoration: none; text-align: center; background-color: #879;}
+.container2 {           display: flex;}
+h1{                     display: block;}
+div.friends {           width: 100%; padding: 20px; margin: 10px; clear: both; background-color: #777;}
